@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Henry Moon - Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Henry Moon</h1>
+        <h2>Biologist-to-Developer</h2>
+        <nav>
+            <a href="#sec1">HM</a>
+            <a href="#sec2">Blog</a>
+            <a href="#sec3">Instagram</a>
+            <a href="#sec4">Contact HM</a>
+        </nav>
+    </header>
+    <section id="sec1">
+        <h1>Biologist, yesterday. <br><br>Front-End Developer, tomorrow.</h1>
+        </article>
+    </section>
+    <section id="sec2">
+        <h1>Records</h1>
+        <article>
+            <h3>Tue May 12 2020 5:30 PM</h3>
+            <p> 
+                Hello world. <br>
+                This is my first post on my blog as an aspiring front-end developer.<br>
+                I've started learning about html5 and css two days ago. <br>
+                I've just finished two courses of "Web Design for Everybody: Basics of Web Development &amp; Coding Specialization."<br>
+                I'm going to start blogging everyday to record what I learn everyday to become a successful developer from a completely different career.<br>
+                That's it for today. <br><br>
+                <a href="txt/051220html.txt">html</a><br>
+                <a href="txt/051220css.txt">css</a>
+            </p>
+        </article>
+    </section>
+    <section id="sec3">
+        <h1> Follow me on instagram. </h1>
+        <p></p>
+    </section>
+    <section id="sec4">
+        <h1> Contact me! </h1>
+    </section>
+    <footer>
+        <p>Footer spaceholder</p>
+    </footer>
+</body>
+</html>

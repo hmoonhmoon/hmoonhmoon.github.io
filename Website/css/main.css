@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/*******************MYCODE*******************/
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+body
+{
+    width: 65%;
+    font-family: 'Roboto', Times;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(240, 240, 240, 1);
+    min-width: 40em;
+}
+
+header
+{
+    position: -webkit-sticky; /* safari*/
+    position: sticky;
+    top: 0;
+    height: 10em;
+    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.95);
+    z-index: +1;
+}
+
+    header h1
+    {
+
+        font-family: 'Libre Barcode 128 Text', sans-serif;
+        font-size: 6em;
+        padding-top: 0.08em;
+        padding-bottom: 0.08em;
+    }
+
+    header h2
+    {
+        padding-top: .5em;
+        font-size: .6em;
+        letter-spacing: .3em;
+    }
+
+    nav
+    {
+        margin-top: 2em;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    nav a
+    {
+        color: rgba(0, 0, 0, 1);
+        text-decoration: none;
+        display: inline-block;
+        width: 5.08em;
+        vertical-align: middle;
+        font-family: 'roboto', sans-serif;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+
+    #sec1
+    {
+        display: block;
+        padding: 11em;
+        background-color: rgba(0, 0, 0, 0.1);
+
+    }
+    #sec2
+    {
+        display: block;
+        height: 25em;
+        overflow-y: hidden;
+        background-color: rgba(0, 0, 0, 0.);
+    
+    }
+
+    #sec2 h1
+    {
+        position: -webkit-sticky; /*safari*/
+        position: sticky;
+        top: 0;
+        font-size: 4em;
+        font-weight: 900;
+        z-index:-1;
+        padding-top:1em;
+        padding-bottom:.5em;
+        letter-spacing:.3em;
+        padding-left: .5em;
+        background-color: rgba(240, 240, 240, 1);
+     }
+
+     #sec2 h3
+     {
+         position: -webkit-sticky; /*safari*/
+         position: sticky;
+         top: 0;
+         font-size: 1.2em;
+         font-weight: 100;
+         letter-spacing: .5em;
+         padding-top: 2em;
+         padding-bottom: 2em;
+         background-color: rgba(240, 240, 240, 1);
+         padding-left:1em;
+     }
+
+    #sec2 p
+    {
+        height: 26em;
+        background-color: rgba(240, 240, 240, 1);
+        line-height: 2em;
+        overflow-y: hidden;
+        padding-left: 1em;
+    }
+    #sec2:hover
+    {
+        overflow-y:scroll;
+        padding-left:1em;
+    }
+
+    #sec3
+    {
+        display: block;
+        padding: 10em;
+        background-color: rgba(0, 0, 0, 0.1);
+
+    }
+    #sec3 p
+    {
+        font-size: 9em;
+    }
+    #sec3 p a
+    {
+        color: rgb(255, 255, 255);
+    }
+    #sec4
+    {
+        position:relative;
+        display: block;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    #sec4 h1
+    {
+        display: none;
+    }
+
+    #sec4 img
+    {
+        max-width: 100%;
+        height: auto;
+        z-index:-1;
+    }
+    #sec4 address
+    {
+        position:absolute;
+        left:28%;
+        top: 30%;
+        width:40%;
+        height:2%;
+        display:inline-block;
+        padding: 1em;
+        border: 1px double rgb(255, 255, 255);
+        background-color: rgba(148, 5, 5, 0.836);
+        overflow:none;
+    }
+    #sec4 a
+    {
+        text-decoration: none;
+        font-family: 'Libre Barcode 128 Text';
+        font-size:2vw;
+        letter-spacing: .2em;
+        color: rgb(255, 255, 255);
+    }
+    #sec4 a:hover
+    {
+        font-family:'roboto';
+        font-size: 5vw;
+        text-align:center;
+        transition: 1s;
+    }
+
+    footer
+    {
+        display: block;
+        padding: 10em;
+        background-color: rgba(0,0,0,0.1);
+    }

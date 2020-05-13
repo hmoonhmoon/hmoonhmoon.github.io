@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/*******************MYCODE*******************/
+
+
+body
+{
+    width: 65%;
+    font-family: 'Roboto', Times;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+header
+{
+    position: relative;
+    height: 10em;
+    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+    header h1
+    {
+        position: -webkit-sticky; /* safari*/
+        position: sticky;
+        top: 0;
+        font-family: 'Libre Barcode 128 Text', sans-serif;
+        font-size: 6em;
+        padding-top: 0.08em;
+        padding-bottom: 0.08em;
+        background-color: rgba(240, 240, 240, 0.8);
+    }
+
+    header h2
+    {
+        padding-top: .5em;
+        font-size: .6em;
+        letter-spacing: .3em;
+    }
+
+    nav
+    {
+        height: 3.8em;
+        width: 100em;
+        position: absolute;
+        top: 2.4em;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    nav a
+    {
+        color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+        display: inline-block;
+        width: 5.08em;
+        vertical-align: middle;
+        margin-right: -.1em;
+        font-family: 'Libre Barcode 128 Text', sans-serif;
+        font-size: 6em;
+/*
+        transition: width .15s, transform .20s;
+        transition-delay: transform .15s;
+        transition-timing-function: ease;
+*/
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+
+   nav a:hover {
+        /*width: 20.34em;
+        color:black;
+        background-color: rgba(255, 255, 255, 1);
+        transform:translateX(10em);
+        animation: navhover 200s;*/
+    }
+    
+
+    @keyframes navhover
+    {
+        0%   {width:5.08em; background: yellow; }
+        0.1% {width:20.34em; background: red; }
+    }
+
+    #sec1
+    {
+        display: block;
+        padding: 11em;
+        background-color: rgba(0, 0, 0, 0.1);
+
+    }
+    #sec2
+    {
+        display: block;
+        height: 25em;
+        overflow-y: hidden;
+        background-color: rgba(0, 0, 0, 0.);
+    
+    }
+
+    #sec2 h1
+    {
+        position: -webkit-sticky; /*safari*/
+        position: sticky;
+        top: 0;
+        font-size: 4em;
+        font-weight: 900;
+        z-index:-1;
+        padding-top:1em;
+        padding-bottom:.5em;
+        letter-spacing:.3em;
+        padding-left: .5em;
+        background-color: rgba(240, 240, 240, 1);
+     }
+
+     #sec2 h3
+     {
+         position: -webkit-sticky; /*safari*/
+         position: sticky;
+         top: 0;
+         font-size: 1.2em;
+         font-weight: 100;
+         letter-spacing: .5em;
+         padding-top: 2em;
+         padding-bottom: 2em;
+         background-color: rgba(240, 240, 240, 1);
+         padding-left:1em;
+     }
+
+    #sec2 p
+    {
+        height: 26em;
+        background-color: rgba(240, 240, 240, 1);
+        line-height: 2em;
+        overflow-y: hidden;
+        padding-left: 1em;
+    }
+    #sec2:hover
+    {
+        overflow-y:scroll;
+        padding-left:1em;
+    }
+
+    #sec3
+    {
+        display: block;
+        padding: 10em;
+        background-color: rgba(0, 0, 0, 0.1);
+
+    }
+    #sec3 p
+    {
+        font-family:;
+        font-size: 100px;
+    }
+    #sec4
+    {
+        display: block;
+        padding: 10em;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    footer
+    {
+        display: block;
+        padding: 10em;
+        background-color: rgba(0,0,0,0.1);
+    }
